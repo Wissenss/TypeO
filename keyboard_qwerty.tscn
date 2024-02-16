@@ -1,0 +1,293 @@
+[gd_scene load_steps=5 format=3 uid="uid://3gefbkq0tsga"]
+
+[ext_resource type="Script" path="res://keyboard_qwerty.gd" id="1_x5257"]
+[ext_resource type="PackedScene" uid="uid://tbaddpdl4d4k" path="res://key.tscn" id="1_yfuwf"]
+[ext_resource type="PackedScene" uid="uid://cnaxbxbw4pdft" path="res://key_spacebar.tscn" id="2_pf5bn"]
+[ext_resource type="PackedScene" uid="uid://ox8r8ljor3n4" path="res://key_shift.tscn" id="4_a14vd"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_x5257")
+
+[node name="0_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 360.0
+offset_right = 395.0
+text = "0"
+metadata/_edit_lock_ = true
+
+[node name="9_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 320.0
+offset_right = 355.0
+text = "9"
+metadata/_edit_lock_ = true
+
+[node name="8_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 280.0
+offset_right = 315.0
+text = "8"
+metadata/_edit_lock_ = true
+
+[node name="q_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 20.0
+offset_top = 40.0
+offset_right = 55.0
+offset_bottom = 75.0
+text = "Q"
+metadata/_edit_lock_ = true
+
+[node name="w_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 60.0
+offset_top = 40.0
+offset_right = 95.0
+offset_bottom = 75.0
+text = "W"
+metadata/_edit_lock_ = true
+
+[node name="e_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 100.0
+offset_top = 40.0
+offset_right = 135.0
+offset_bottom = 75.0
+text = "E"
+metadata/_edit_lock_ = true
+
+[node name="r_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 140.0
+offset_top = 40.0
+offset_right = 175.0
+offset_bottom = 75.0
+text = "R
+"
+metadata/_edit_lock_ = true
+
+[node name="t_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 180.0
+offset_top = 40.0
+offset_right = 215.0
+offset_bottom = 75.0
+text = "T
+"
+metadata/_edit_lock_ = true
+
+[node name="y_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 220.0
+offset_top = 40.0
+offset_right = 255.0
+offset_bottom = 75.0
+text = "Y"
+metadata/_edit_lock_ = true
+
+[node name="u_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 260.0
+offset_top = 40.0
+offset_right = 295.0
+offset_bottom = 75.0
+text = "U"
+metadata/_edit_lock_ = true
+
+[node name="i_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 300.0
+offset_top = 40.0
+offset_right = 335.0
+offset_bottom = 75.0
+text = "I"
+metadata/_edit_lock_ = true
+
+[node name="o_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 340.0
+offset_top = 40.0
+offset_right = 375.0
+offset_bottom = 75.0
+text = "O"
+metadata/_edit_lock_ = true
+
+[node name="p_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 380.0
+offset_top = 40.0
+offset_right = 415.0
+offset_bottom = 75.0
+text = "P"
+metadata/_edit_lock_ = true
+
+[node name="a_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 30.0
+offset_top = 80.0
+offset_right = 65.0
+offset_bottom = 115.0
+text = "A"
+metadata/_edit_lock_ = true
+
+[node name="s_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 70.0
+offset_top = 80.0
+offset_right = 105.0
+offset_bottom = 115.0
+text = "S"
+metadata/_edit_lock_ = true
+
+[node name="d_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 110.0
+offset_top = 80.0
+offset_right = 145.0
+offset_bottom = 115.0
+text = "D"
+metadata/_edit_lock_ = true
+
+[node name="f_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 150.0
+offset_top = 80.0
+offset_right = 185.0
+offset_bottom = 115.0
+text = "F"
+metadata/_edit_lock_ = true
+
+[node name="g_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 190.0
+offset_top = 80.0
+offset_right = 225.0
+offset_bottom = 115.0
+text = "G"
+metadata/_edit_lock_ = true
+
+[node name="h_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 230.0
+offset_top = 80.0
+offset_right = 265.0
+offset_bottom = 115.0
+text = "H"
+metadata/_edit_lock_ = true
+
+[node name="j_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 270.0
+offset_top = 80.0
+offset_right = 305.0
+offset_bottom = 115.0
+text = "J"
+metadata/_edit_lock_ = true
+
+[node name="k_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 310.0
+offset_top = 80.0
+offset_right = 345.0
+offset_bottom = 115.0
+text = "K"
+metadata/_edit_lock_ = true
+
+[node name="l_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 350.0
+offset_top = 80.0
+offset_right = 385.0
+offset_bottom = 115.0
+text = "L"
+metadata/_edit_lock_ = true
+
+[node name="z_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 50.0
+offset_top = 120.0
+offset_right = 85.0
+offset_bottom = 155.0
+text = "Z"
+metadata/_edit_lock_ = true
+
+[node name="x_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 90.0
+offset_top = 120.0
+offset_right = 125.0
+offset_bottom = 155.0
+text = "X"
+metadata/_edit_lock_ = true
+
+[node name="c_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 130.0
+offset_top = 120.0
+offset_right = 165.0
+offset_bottom = 155.0
+text = "C"
+metadata/_edit_lock_ = true
+
+[node name="v_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 170.0
+offset_top = 120.0
+offset_right = 205.0
+offset_bottom = 155.0
+text = "V"
+metadata/_edit_lock_ = true
+
+[node name="b_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 210.0
+offset_top = 120.0
+offset_right = 245.0
+offset_bottom = 155.0
+text = "B"
+metadata/_edit_lock_ = true
+
+[node name="n_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 250.0
+offset_top = 120.0
+offset_right = 285.0
+offset_bottom = 155.0
+text = "N"
+metadata/_edit_lock_ = true
+
+[node name="m_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 290.0
+offset_top = 120.0
+offset_right = 325.0
+offset_bottom = 155.0
+text = "M"
+metadata/_edit_lock_ = true
+
+[node name="1_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+text = "1"
+metadata/_edit_lock_ = true
+
+[node name="2_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 40.0
+offset_right = 75.0
+text = "2"
+metadata/_edit_lock_ = true
+
+[node name="3_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 80.0
+offset_right = 115.0
+text = "3"
+metadata/_edit_lock_ = true
+
+[node name="4_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 120.0
+offset_right = 155.0
+text = "4
+"
+metadata/_edit_lock_ = true
+
+[node name="5_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 160.0
+offset_right = 195.0
+text = "5
+"
+metadata/_edit_lock_ = true
+
+[node name="6_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 200.0
+offset_right = 235.0
+text = "6
+"
+metadata/_edit_lock_ = true
+
+[node name="7_key" parent="." groups=["keys"] instance=ExtResource("1_yfuwf")]
+offset_left = 240.0
+offset_right = 275.0
+text = "7
+"
+metadata/_edit_lock_ = true
+
+[node name="spacebar_key" parent="." instance=ExtResource("2_pf5bn")]
+offset_left = 110.0
+offset_top = 160.0
+offset_right = 345.0
+offset_bottom = 195.0
+metadata/_edit_lock_ = true
+
+[node name="shift_key" parent="." instance=ExtResource("4_a14vd")]
+offset_top = 120.0
+offset_bottom = 155.0
+metadata/_edit_lock_ = true

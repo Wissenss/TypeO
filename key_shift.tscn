@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ox8r8ljor3n4"]
+
+[ext_resource type="PackedScene" uid="uid://tbaddpdl4d4k" path="res://key.tscn" id="1_522t6"]
+
+[node name="Button" instance=ExtResource("1_522t6")]
+offset_right = 45.0
+text = "Shift"

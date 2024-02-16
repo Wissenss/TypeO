@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://uy70d23t71xj"]
+
+[ext_resource type="Script" path="res://metrics_panel.gd" id="1_rr4lt"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_rr4lt")
+
+[node name="wpm" type="Label" parent="."]
+offset_right = 80.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "WPM: 000"
+
+[node name="mistakes" type="Label" parent="."]
+offset_left = 92.0
+offset_right = 202.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Mistakes: 000
+"
+
+[node name="accuracy" type="Label" parent="."]
+offset_left = 210.0
+offset_right = 330.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Precision: 0.00"

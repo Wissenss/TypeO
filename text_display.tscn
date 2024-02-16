@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkwssio2h3q2e"]
+
+[ext_resource type="Script" path="res://text_display.gd" id="1_g0l7r"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_g0l7r")
+
+[node name="text_label" type="RichTextLabel" parent="."]
+offset_right = 600.0
+offset_bottom = 138.0
+size_flags_vertical = 0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+bbcode_enabled = true
+text = "The text to type...
+"

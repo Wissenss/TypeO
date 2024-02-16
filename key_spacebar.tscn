@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnaxbxbw4pdft"]
+
+[ext_resource type="PackedScene" uid="uid://tbaddpdl4d4k" path="res://key.tscn" id="1_uj3fx"]
+
+[node name="Button" instance=ExtResource("1_uj3fx")]
+offset_right = 235.0

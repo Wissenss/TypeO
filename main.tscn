@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://dnlr4doi60sak"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_06tdu"]
+[ext_resource type="PackedScene" uid="uid://uy70d23t71xj" path="res://metrics_panel.tscn" id="3_gjp5t"]
+[ext_resource type="PackedScene" uid="uid://dkwssio2h3q2e" path="res://text_display.tscn" id="4_f6mk1"]
+[ext_resource type="PackedScene" uid="uid://3gefbkq0tsga" path="res://keyboard_qwerty.tscn" id="4_k5xjo"]
+[ext_resource type="PackedScene" uid="uid://tbaddpdl4d4k" path="res://key.tscn" id="5_6vuna"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_06tdu")
+metadata/_edit_lock_ = true
+
+[node name="background" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(960, 540)
+offset_right = 740.0
+offset_bottom = 460.0
+color = Color(0.831373, 0.901961, 0.988235, 1)
+metadata/_edit_lock_ = true
+
+[node name="keyboard" parent="." instance=ExtResource("4_k5xjo")]
+position = Vector2(272, 320)
+metadata/_edit_lock_ = true
+
+[node name="metrics_panel" parent="." instance=ExtResource("3_gjp5t")]
+position = Vector2(315, 81)
+metadata/_edit_lock_ = true
+
+[node name="text_display" parent="." instance=ExtResource("4_f6mk1")]
+position = Vector2(180, 155)
+metadata/_edit_lock_ = true
+
+[node name="reset_button" parent="." instance=ExtResource("5_6vuna")]
+offset_left = 888.0
+offset_top = 498.0
+offset_right = 953.0
+offset_bottom = 533.0
+focus_mode = 0
+toggle_mode = false
+text = "Reset"
+
+[connection signal="pressed" from="reset_button" to="." method="_on_reset_button_pressed"]
